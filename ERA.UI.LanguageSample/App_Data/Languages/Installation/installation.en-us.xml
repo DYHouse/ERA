@@ -1,14 +1,26 @@
 ﻿<Language Name="English" IsDefault="false">
-  <LocaleResource Name="Test1">
-    <Value>do it test1</Value>
+  <LocaleResource Name="Login">
+    <Value>Sign In</Value>
   </LocaleResource>
-  <LocaleResource Name="Test2">
-    <Value>do it test2 {0}</Value>
+  <LocaleResource Name="Close">
+    <Value>Close</Value>
   </LocaleResource>
-  <LocaleResource Name="Test3">
-    <Value><![CDATA[<a href="#">]]> it test3 {0} <![CDATA[</a>]]></Value>
+  <LocaleResource Name="InputAccount">
+    <Value>please input your accout</Value>
   </LocaleResource>
-  <LocaleResource Name="test">
-    <Value>haha</Value>
+  <LocaleResource Name="InputPassword">
+    <Value>please input your password</Value>
+  </LocaleResource>
+  <LocaleResource Name="LanguageTest">
+    <Value>Project internationalization test</Value>
+  </LocaleResource>
+  <LocaleResource Name="Chinese">
+    <Value>Chinese</Value>
+  </LocaleResource>
+  <LocaleResource Name="English">
+    <Value>English</Value>
+  </LocaleResource>
+  <LocaleResource Name="LinkText">
+    <Value><![CDATA[<a href="#">]]>Link Test{0}<![CDATA[</a>]]></Value>
   </LocaleResource>
 </Language>

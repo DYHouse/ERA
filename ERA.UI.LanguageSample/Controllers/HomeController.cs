@@ -13,11 +13,24 @@ namespace ERA.UI.LanguageSample.Controllers
 
         public ActionResult Index()
         {
-            ViewBag.MessageOne = "test1".ToLocalString();
-            ViewBag.MessageTwo = "test2".ToLocalString("test".ToLocalString());
-            ViewBag.MessageThree = "test3".ToLocalString("test".ToLocalString());
+            //to do
+            //测试 粗暴做法
+            ViewBag.LanguageCode = "zh-cn";
+            if (!string.IsNullOrEmpty(Request["id"]))
+            {
+                ViewBag.LanguageCode = Request["id"];
+            }
             return View();
         }
 
+        public ActionResult OpenModal()
+        {
+            return Json(
+                new
+                {
+                    Message = "LinkText".ToLocalString("1")
+                }
+                );
+        }
     }
 }

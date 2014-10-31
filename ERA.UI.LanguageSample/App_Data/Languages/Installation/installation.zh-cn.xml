@@ -1,14 +1,26 @@
 ﻿<Language Name="简体中文" IsDefault="true">
-  <LocaleResource Name="test1">
-    <Value>进行测试一</Value>
+  <LocaleResource Name="Login">
+    <Value>登录</Value>
   </LocaleResource>
-  <LocaleResource Name="test2">
-    <Value>进行测试二{0}</Value>
+  <LocaleResource Name="Close">
+    <Value>关闭</Value>
   </LocaleResource>
-  <LocaleResource Name="test3">
-    <Value><![CDATA[<a href="#">]]> 进行测试三 {0} <![CDATA[</a>]]></Value>
+  <LocaleResource Name="InputAccount">
+    <Value>请输入账号</Value>
   </LocaleResource>
-  <LocaleResource Name="test">
-    <Value>哈哈</Value>
+  <LocaleResource Name="InputPassword">
+    <Value>请输入密码</Value>
+  </LocaleResource>
+  <LocaleResource Name="LanguageTest">
+    <Value>项目国际化测试</Value>
+  </LocaleResource>
+  <LocaleResource Name="Chinese">
+    <Value>中文</Value>
+  </LocaleResource>
+  <LocaleResource Name="English">
+    <Value>英文</Value>
+  </LocaleResource>
+  <LocaleResource Name="LinkText">
+    <Value><![CDATA[<a href="#">]]>超链接测试{0}<![CDATA[</a>]]></Value>
   </LocaleResource>
 </Language>
