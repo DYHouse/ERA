@@ -6,3 +6,6 @@
 <h3>@ViewBag.MessageOne</h3>
 <h2>@ViewBag.MessageTwo</h2>
 <h1>@Html.Raw(ViewBag.MessageThree)</h1>
+<h3>@T("test1")</h3>
+<h2>@T("test2",T("test"))</h2>
+<h1>@Html.Raw(T("test3",T("test")))</h1>
