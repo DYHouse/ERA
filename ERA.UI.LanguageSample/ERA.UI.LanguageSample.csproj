@@ -197,7 +197,6 @@
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="App_Data\Redmine部署到云端（Windows Azure）.docx" />
     <None Include="Scripts\lib\jquery-1.8.2.intellisense.js" />
     <Content Include="Scripts\lib\jquery-1.8.2.js" />
     <Content Include="Scripts\lib\jquery-1.8.2.min.js" />
