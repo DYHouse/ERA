@@ -7,7 +7,6 @@ using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Web;
 using System.Xml;
-using ERA.Framework.Exception;
 
 namespace ERA.Framework.Language
 {

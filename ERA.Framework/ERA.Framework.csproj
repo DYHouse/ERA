@@ -44,6 +44,15 @@
     <Compile Include="Cache\CacheExtensions.cs" />
     <Compile Include="Cache\ICacheManager.cs" />
     <Compile Include="Cache\MemoryCacheManager.cs" />
+    <Compile Include="EntityFramework\AndSpecification.cs" />
+    <Compile Include="EntityFramework\CompositeSpecification.cs" />
+    <Compile Include="EntityFramework\ExpressionExtension.cs" />
+    <Compile Include="EntityFramework\ExpressionVisitor.cs" />
+    <Compile Include="EntityFramework\ISpecification.cs" />
+    <Compile Include="EntityFramework\NotSpecification.cs" />
+    <Compile Include="EntityFramework\OrSpecification.cs" />
+    <Compile Include="EntityFramework\ParameterRebinder.cs" />
+    <Compile Include="EntityFramework\Specification.cs" />
     <Compile Include="Exception\ERAException.cs" />
     <Compile Include="Exception\EvilException.cs" />
     <Compile Include="Exception\UserOperationException.cs" />
@@ -56,6 +65,7 @@
     <Compile Include="Language\Localizer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ERA.Framework.Exception
+namespace ERA.Framework
 {
     public class UserOperationException : ERAException
     {

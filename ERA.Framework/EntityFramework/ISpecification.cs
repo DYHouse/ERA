@@ -1,17 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace ERA.Framework
 {
-    public class EvilException : ERAException
+    public interface ISpecification<T>
     {
-        public EvilException(string msg)
-            : base(msg)
-        {
-
-        }
+        Expression<Func<T, bool>> IsSatisfiedBy();
     }
 }

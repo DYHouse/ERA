@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ERA.Framework.Exception
+namespace ERA.Framework
 {
-    public class ERAException: System.Exception
+    public class ERAException: Exception
     {
         public ERAException(string msg)
             : base(msg)
