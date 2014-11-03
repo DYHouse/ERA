@@ -1,8 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERA.Framework", "ERA.Framework\ERA.Framework.csproj", "{406CFB6C-C25F-46B3-B66F-E36AF928D605}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{093A0371-DAA8-409A-AE17-BD126D74F5F6}"
 	ProjectSection(SolutionItems) = preProject
 		.nuget\NuGet.Config = .nuget\NuGet.Config
@@ -10,11 +8,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{093A03
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERA.UI.LanguageSample", "ERA.UI.LanguageSample\ERA.UI.LanguageSample.csproj", "{8FD48A65-1743-45D7-B865-B055C067CEC7}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{9228582C-161E-4ED2-8574-A4B368819EB4}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{817F74AD-2567-4985-BE4B-3B9A350C526B}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{E2FE098E-7928-42E2-8E36-9B004A004CE7}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{69704C74-F61C-4C8B-84EB-B570D9A31A7D}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{80675944-B494-4DB5-A400-798965619760}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{376FDBFB-D87E-4563-A0DD-DCC749CA0312}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERA.Framework", "Infrastructure\ERA.Framework\ERA.Framework.csproj", "{406CFB6C-C25F-46B3-B66F-E36AF928D605}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERA.UI.LanguageSample", "UI\ERA.UI.LanguageSample\ERA.UI.LanguageSample.csproj", "{8FD48A65-1743-45D7-B865-B055C067CEC7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +39,7 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{8FD48A65-1743-45D7-B865-B055C067CEC7} = {817F74AD-2567-4985-BE4B-3B9A350C526B}
+		{8FD48A65-1743-45D7-B865-B055C067CEC7} = {9228582C-161E-4ED2-8574-A4B368819EB4}
+		{406CFB6C-C25F-46B3-B66F-E36AF928D605} = {376FDBFB-D87E-4563-A0DD-DCC749CA0312}
 	EndGlobalSection
 EndGlobal

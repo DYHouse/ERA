@@ -242,7 +242,7 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ERA.Framework\ERA.Framework.csproj">
+    <ProjectReference Include="..\..\Infrastructure\ERA.Framework\ERA.Framework.csproj">
       <Project>{406cfb6c-c25f-46b3-b66f-e36af928d605}</Project>
       <Name>ERA.Framework</Name>
     </ProjectReference>
