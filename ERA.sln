@@ -22,6 +22,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERA.UI.LanguageSample", "UI
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERA.Domain", "Domain\ERA.Domain\ERA.Domain.csproj", "{F1191242-EA36-435B-82F3-657AF1C22F83}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERA.Service", "ERA.Service\ERA.Service.csproj", "{0EE0690D-835C-48B9-8086-07C7FB3C708D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -40,6 +42,10 @@ Global
 		{F1191242-EA36-435B-82F3-657AF1C22F83}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1191242-EA36-435B-82F3-657AF1C22F83}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1191242-EA36-435B-82F3-657AF1C22F83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EE0690D-835C-48B9-8086-07C7FB3C708D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EE0690D-835C-48B9-8086-07C7FB3C708D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EE0690D-835C-48B9-8086-07C7FB3C708D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EE0690D-835C-48B9-8086-07C7FB3C708D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -47,6 +53,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{8FD48A65-1743-45D7-B865-B055C067CEC7} = {9228582C-161E-4ED2-8574-A4B368819EB4}
 		{F1191242-EA36-435B-82F3-657AF1C22F83} = {E2FE098E-7928-42E2-8E36-9B004A004CE7}
+		{0EE0690D-835C-48B9-8086-07C7FB3C708D} = {80675944-B494-4DB5-A400-798965619760}
 		{406CFB6C-C25F-46B3-B66F-E36AF928D605} = {376FDBFB-D87E-4563-A0DD-DCC749CA0312}
 	EndGlobalSection
 EndGlobal
