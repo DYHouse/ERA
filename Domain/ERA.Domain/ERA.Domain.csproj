@@ -39,6 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Common\ERACommonHelper.cs" />
     <Compile Include="ERATicket.cs" />
     <Compile Include="ERAUser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

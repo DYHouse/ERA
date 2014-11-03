@@ -43,6 +43,9 @@
     <Compile Include="Authentication\FormPrincipal.cs" />
     <Compile Include="Authentication\FormsAuthenticationService.cs" />
     <Compile Include="Authentication\IAuthenticationService.cs" />
+    <Compile Include="FileUpload\FileInfo.cs" />
+    <Compile Include="FileUpload\FileUploadService.cs" />
+    <Compile Include="FileUpload\IFileUploadService.cs" />
     <Compile Include="IERAContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
