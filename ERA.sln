@@ -12,6 +12,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{093A03
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERA.UI.LanguageSample", "ERA.UI.LanguageSample\ERA.UI.LanguageSample.csproj", "{8FD48A65-1743-45D7-B865-B055C067CEC7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{817F74AD-2567-4985-BE4B-3B9A350C526B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{69704C74-F61C-4C8B-84EB-B570D9A31A7D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,5 +33,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8FD48A65-1743-45D7-B865-B055C067CEC7} = {817F74AD-2567-4985-BE4B-3B9A350C526B}
 	EndGlobalSection
 EndGlobal
