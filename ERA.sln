@@ -14,7 +14,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{E2FE09
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{80675944-B494-4DB5-A400-798965619760}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{376FDBFB-D87E-4563-A0DD-DCC749CA0312}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framework", "Framework", "{376FDBFB-D87E-4563-A0DD-DCC749CA0312}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERA.Framework", "Infrastructure\ERA.Framework\ERA.Framework.csproj", "{406CFB6C-C25F-46B3-B66F-E36AF928D605}"
 EndProject
